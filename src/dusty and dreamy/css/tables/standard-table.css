@@ -1,0 +1,94 @@
+/* Dreamy bouncy standard table styling */
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 1rem;
+
+    color: #eaf2ff;
+
+    overflow: hidden;
+}
+
+thead th {
+    padding: 1rem 1.4rem;
+
+    font-size: 0.95rem;
+    font-weight: 700;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+
+    background:
+        linear-gradient(
+            135deg,
+            rgba(190,225,255,0.14),
+            rgba(120,170,255,0.08)
+        );
+
+    color: #f8fbff;
+
+    border-top: 0.0625rem solid rgba(255,255,255,0.08);
+    border-bottom: 0.0625rem solid rgba(255,255,255,0.05);
+
+    backdrop-filter: blur(1rem);
+    -webkit-backdrop-filter: blur(1rem);
+
+    text-shadow:
+        0 0 0.8rem rgba(180,220,255,0.12);
+}
+
+thead th:first-child {
+    border-radius: 1rem 0 0 1rem;
+}
+
+thead th:last-child {
+    border-radius: 0 1rem 1rem 0;
+}
+
+tbody tr {
+    transition:
+        transform 0.32s cubic-bezier(.22,.9,.3,1.2),
+        filter 0.28s ease;
+}
+
+tbody tr:hover {
+    transform:
+        translateY(-0.3rem)
+        scale(1.012);
+
+    filter: brightness(1.04);
+}
+
+tbody td {
+    padding: 1.2rem 1.4rem;
+
+    background:
+        linear-gradient(
+            135deg,
+            rgba(20,28,45,0.74),
+            rgba(60,85,120,0.4)
+        );
+
+    border-top: 0.0625rem solid rgba(255,255,255,0.05);
+    border-bottom: 0.0625rem solid rgba(255,255,255,0.04);
+
+    backdrop-filter: blur(1.2rem) saturate(140%);
+    -webkit-backdrop-filter: blur(1.2rem) saturate(140%);
+
+    box-shadow:
+        0 1rem 2.2rem rgba(0,0,0,0.18),
+        0 0 1.6rem rgba(120,170,255,0.05);
+
+    text-shadow:
+        0 0 0.5rem rgba(180,220,255,0.06);
+}
+
+tbody td:first-child {
+    border-left: 0.0625rem solid rgba(255,255,255,0.05);
+    border-radius: 1rem 0 0 1rem;
+}
+
+tbody td:last-child {
+    border-right: 0.0625rem solid rgba(255,255,255,0.05);
+    border-radius: 0 1rem 1rem 0;
+}

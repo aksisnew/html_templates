@@ -1,0 +1,160 @@
+h1{
+    font-weight: bolder;
+   background: linear-gradient(
+    135deg,
+    #ffffff 0%,
+    #dbeafe 25%,
+    #9ec5ff 55%,
+    #c8e1ff 75%,
+    #ffffff 100%
+);
+
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+color: transparent;
+
+margin-top: 3.125rem;
+margin-bottom: 3.125rem;
+ border-bottom: 0.0625rem solid rgba(119, 141, 169, 0.2);
+    padding-bottom: 0.625rem;
+}
+
+h2{
+   font-weight: 900;
+letter-spacing: 0.04rem;
+
+background: linear-gradient(
+    135deg,
+    #395477 0%,
+    #466ba2 22%,
+    #8fb8ff 48%,
+    #bca8ff 72%,
+    #404c62 100%
+);
+
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+color: transparent;
+
+text-shadow:
+    0 0 1.2rem rgba(160, 200, 255, 0.12),
+    0 0 2.5rem rgba(140, 120, 255, 0.08);
+
+margin-top: 3.5rem;
+margin-bottom: 3rem;
+
+padding-bottom: 0.9rem;
+
+border-bottom: 0.0625rem solid rgba(180, 210, 255, 0.12);
+
+position: relative;
+}
+h3{
+    font-weight: 800;
+font-size: 1.6rem;
+letter-spacing: 0.03rem;
+
+background: linear-gradient(
+    135deg,
+    #607995 0%,
+    #769cc9 35%,
+    #8db8ff 65%,
+    #8168bb 100%
+);
+
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+color: transparent;
+
+text-shadow:
+    0 0 0.8rem rgba(160, 200, 255, 0.1);
+
+margin-top: 2.4rem;
+margin-bottom: 1.4rem;
+
+padding-bottom: 0.55rem;
+
+border-bottom: 0.0625rem solid rgba(180, 210, 255, 0.08);
+}
+h4{
+    font-weight: 700;
+font-size: 1.2rem;
+letter-spacing: 0.025rem;
+
+background: linear-gradient(
+    135deg,
+    #72839a 0%,
+    #5b708d 40%,
+    #9fc2ff 75%,
+    #8161cb 100%
+);
+
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+color: transparent;
+
+text-shadow:
+    0 0 0.6rem rgba(170, 210, 255, 0.08);
+
+margin-top: 1.8rem;
+margin-bottom: 1rem;
+
+opacity: 0.96;
+}
+h5{
+    font-weight: 650;
+font-size: 1rem;
+letter-spacing: 0.04rem;
+text-transform: uppercase;
+
+background: linear-gradient(
+    135deg,
+    #f7fbff 0%,
+    #d7e7ff 45%,
+    #adcfff 75%,
+    #ebe2ff 100%
+);
+
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+color: transparent;
+
+text-shadow:
+    0 0 0.45rem rgba(180, 220, 255, 0.08);
+
+margin-top: 1.4rem;
+margin-bottom: 0.8rem;
+
+opacity: 0.9;
+}
+h6{
+    font-weight: 600;
+font-size: 0.82rem;
+letter-spacing: 0.08rem;
+text-transform: uppercase;
+
+background: linear-gradient(
+    135deg,
+    #afb0b0 0%,
+    #637999 50%,
+    #496da2 100%
+);
+
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+color: transparent;
+
+text-shadow:
+    0 0 0.35rem rgba(190, 225, 255, 0.06);
+
+margin-top: 1rem;
+margin-bottom: 0.6rem;
+
+opacity: 0.78;
+}

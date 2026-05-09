@@ -1,0 +1,35 @@
+.dreamy-blur {
+    color: #edf4ff;
+
+    text-shadow:
+        0 0 0.25rem rgba(255,255,255,0.85),
+        0 0 0.75rem rgba(180,220,255,0.45),
+        0 0 1.5rem rgba(140,180,255,0.25);
+
+    letter-spacing: 0.03rem;
+
+    filter: blur(0.01rem);
+}
+.dreamy-blur-a {
+    background: linear-gradient(
+        135deg,
+        #ffffff 0%,
+        #d8e8ff 35%,
+        #a8cfff 65%,
+        #e6dcff 100%
+    );
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+
+    text-shadow:
+        0 0 0.35rem rgba(255,255,255,0.6),
+        0 0 1rem rgba(180,220,255,0.35),
+        0 0 2rem rgba(160,140,255,0.18);
+
+    letter-spacing: 0.04rem;
+
+    filter: blur(0.0125rem);
+}
